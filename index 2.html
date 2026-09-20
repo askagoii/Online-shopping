@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="mn"> <!--language-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STARstore</title>
+<meta name="description" content="Fieldwork makes durable canvas and denim workwear, cut for movement and built to be repaired for decades.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div class="announce">Fall restock is live — orders over $150 ship free, always repairable, always returnable within 60 days</div>
+
+<header class="site">
+  <div class="nav">
+
+    <!-- <a href="#top" class="logo"><span class="mark">▲</span> STAR HOODIE SHOP</a>  -->
+    <!-- LOGO: -->
+     <a href="#top" class="logo"><img src="star-logo.jpeg" alt="Logo" class="logo-img">STAR ХУВЦАСНЫ ДЭЛГҮҮР</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#collection">Нүүр</a>
+      <a href="#craft">Бараанууд</a>
+      <a href="#press">Тусламж</a>
+      <a href="#contact">Холбоо барих</a> 
+      <!-- &amp; contact-Demo -->
+    </nav>
+    <div class="nav-right">
+      <button class="bag-btn" id="bagBtn" aria-label="View bag">
+        Bag · <span id="bagCount">0</span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false"> <!-- HUMBURGER BUTTON FOR MOBILE WITH-->
+        <span></span><span></span><span></span> <!-- THIS SHOW HORIZONTAL MENU INCUDING THE MATERIALS, FIELD NOTES AND CONTACT -->
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="kicker">FALL 026 COLLECTION</div>
+        <h1>Хотын хэв маяг<br>Өдөр тутмын тав тух<br>Чанартай сонголт</h1>
+        <p class="lede">Өөрийн өнгө төрхөө илэрхийл. Өдөр бүр өөртөө итгэлтэй бай. </p>
+        <div class="hero-ctas">
+          <a href="#collection" class="btn-primary">Бараа үзэх</a>
+          <a href="#craft" class="btn-ghost">Одоо худалдаж авах</a>
+        </div>
+      </div>
+      <div class="swatch-board" role="img" aria-label="bla bla.">
+        <!-- <div class="swatch sw1"><img src="images/hoodie-2.png" alt="hh"></div>
+        <div class="swatch sw2"><span>OLIVE RIPSTOP</span></div>
+        <div class="swatch sw3"><span>14oz SELVEDGE</span></div>
+        <div class="swatch sw4"><span>UNDYED DUCK</span></div>
+        <div class="swatch sw5"><span>WAXED COTTON</span></div>
+        <div class="swatch sw6"><span>LOOPBACK JERSEY</span></div> -->
+        <div class="swatch sw1"><img src="images/sw1.png" alt="hoodie"></div>
+        <div class="swatch sw2"><img src="images/sw2.png" alt="tshirt"></div>
+        <div class="swatch sw3"><img src="images/sw3.png" alt="jacket"></div>
+        <div class="swatch sw4"><img src="images/sw4.png" alt="pants"></div>
+        <div class="swatch sw5"><img src="images/sw5.png" alt="cap"></div>
+        <div class="swatch sw6"><img src="images/sw6.png" alt="bag"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLLECTION -->
+  <section class="collection" id="collection">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Шинэ цуглуулга</h2>
+        <p>Six pieces, no seasonal filler. Every garment stays in the catalog until the fabric mill can no longer supply it.</p>
+      </div>
+
+    <div class="products-wrapper">
+      <button class="scroll-btn left" id="leftBtn">❮</button>
+      <div class="grid-products" id="productGrid">
+        <!-- Product 1 -->
+        <div class="card">
+          <div class="card-art">
+            <span class="code">FW-014</span>
+            <!-- <svg viewBox="0 0 120 120"><path d="M35 18 L20 30 L28 42 L35 36 L35 104 L85 104 L85 36 L92 42 L100 30 L85 18 L70 26 L50 26 Z"/><line x1="60" y1="30" x2="60" y2="104"/><path d="M35 36 L35 60 M85 36 L85 60"/><circle cx="45" cy="50" r="1.6"/><circle cx="45" cy="62" r="1.6"/></svg> -->
+             <img src="images/sw1.png" alt="Black Hoodie">
+          </div>
+          <div class="card-body">
+            <h3>Hoodie #1</h3>
+            <div class="card-meta"><span>Unisex</span></div>
+            <!-- <div class="card-meta"><span>Rust canvas</span><span>Unisex</span></div> -->
+            <p>Зузаан даавуун материалтай, өвөрмөц график хэвлэлтэй хар өнгийн худи. Өдөр тутмын болон streetwear хэв маягт тохиромжтой, биед эвтэйхэн өмсгөлтэй.</p>
+            <!-- <ul class="card-specs">
+              <li>12oz cotton canvas</li>
+              <li>Corozo buttons</li>
+              <li>4 pockets</li>
+            </ul> -->
+            <div class="sizes">
+              <span class="size">S</span>
+              <span class="size">M</span>
+              <span class="size">L</span>
+              <span class="size">XL</span>
+            </div>
+            <div class="card-foot">
+              <span class="price">75,000₮</span>
+              <button class="add-btn">Сагсанд хийх</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="card">
+          <div class="card-art">
+            <span class="code">FW-021</span>
+            <!-- <svg viewBox="0 0 120 120"><path d="M40 15 L80 15 L84 30 L60 22 L36 30 Z"/><path d="M36 30 L20 100 L45 105 L52 45 L60 45 L68 45 L75 105 L100 100 L84 30 Z"/><line x1="60" y1="45" x2="60" y2="100"/></svg> -->
+            <img src="images/sw5.png" alt="Black Hoodie">
+          </div>
+          <div class="card-body">
+            <h3>Hoodie #2</h3>
+            <div class="card-meta"><span>Unisex</span></div>
+            <!-- <div class="card-meta"><span>Undyed duck</span><span>Unisex</span></div> -->
+            <!-- <ul class="card-specs">
+              <li>11oz duck canvas</li>
+              <li>Gusseted crotch</li>
+              <li>Hammer loop</li>
+            </ul> -->
+            <p>Зөөлөн хөвөн даавуун материалтай, дулаан хадгалах чадвартай худи. Энгийн бөгөөд цэвэрхэн загвар нь өдөр тутмын хэрэглээ болон хөнгөн спортын хувцаслалтад тохиромжтой.</p>
+            <div class="sizes">
+              <span class="size">S</span>
+              <span class="size">M</span>
+              <span class="size">L</span>
+              <span class="size">XL</span>
+            </div>
+            <div class="card-foot">
+              <span class="price">85,000₮</span>
+              <button class="add-btn">Сагсанд хийх</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        
+        <div class="card">
+          <div class="card-art">
+            <span class="code">FW-032</span>
+            <img src="images/sw3.png" alt="Black Hoodie">
+          </div>
+          <div class="card-body">
+            <h3>Hoodie #3</h3>
+            <div class="card-meta"><span>Unisex</span></div>
+            <p>Ар талдаа том хэмжээний хэвлэлтэй, орчин үеийн загварын саарал худи. Тав тухтай эсгүүртэй бөгөөд сэрүүн улиралд өмсөхөд тохиромжтой.
+            <div class="sizes">
+              <span class="size">S</span>
+              <span class="size">M</span>
+              <span class="size">L</span>
+              <span class="size">XL</span>
+            </div>
+            </p>
+            <div class="card-foot">
+              <span class="price">95,000₮</span>
+              <button class="add-btn">Сагсанд хийх</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="card">
+          <div class="card-art">
+            <span class="code">FW-008</span>
+            <!-- <svg viewBox="0 0 120 120"><path d="M42 20 L30 20 L18 34 L28 44 L42 36 L42 100 L78 100 L78 36 L92 44 L102 34 L90 20 L78 20 L70 28 L50 28 Z"/></svg> -->
+             <img src="images/sw4.png" alt="hoodie4">
+          </div>
+          <div class="card-body">
+            <h3>Hoodie #4</h3>
+            <div class="card-meta"><span>Unisex</span></div>
+            <!-- <ul class="card-specs">
+              <li>8oz cotton jersey</li>
+              <li>Chest pocket</li>
+              <li>Ribbed collar</li>
+            </ul> -->
+            <p>Зөөлөн хөвөн даавуун материалтай, дулаан хадгалах чадвартай худи. 
+              Энгийн бөгөөд цэвэрхэн загвар нь өдөр тутмын хэрэглээ болон хөнгөн спортын хувцаслалтад тохиромжтой.</p>
+            <div class="sizes">
+              <span class="size">S</span>
+              <span class="size">M</span>
+              <span class="size">L</span>
+              <span class="size">XL</span>
+            </div>
+            <div class="card-foot">
+              <span class="price">95,000₮</span>
+              <button class="add-btn">Сагсанд хийх</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="card">
+          <div class="card-art">
+            <span class="code">FW-045</span>
+            <!-- <svg viewBox="0 0 120 120"><path d="M38 16 L82 16 L86 32 L60 24 L34 32 Z"/><path d="M34 32 L16 40 L24 56 L36 50 L28 104 L92 104 L84 50 L96 56 L104 40 L86 32 Z"/><line x1="60" y1="24" x2="60" y2="104" stroke-dasharray="2 3"/></svg> -->
+             <img src="images/sw5.png" alt="hoodie5">
+          </div>
+          <div class="card-body">
+            <h3>Hoodie #5</h3>
+            <div class="card-meta"><span>Unisex</span></div>
+            <p>Зөөлөн хөвөн даавуун материалтай, дулаан хадгалах чадвартай худи. Энгийн бөгөөд цэвэрхэн загвар нь өдөр тутмын хэрэглээ болон хөнгөн спортын хувцаслалтад тохиромжтой.</p>
+            <div class="sizes">
+              <span class="size">S</span>
+              <span class="size">M</span>
+              <span class="size">L</span>
+              <span class="size">XL</span>
+            </div>
+            <div class="card-foot">
+              <span class="price">95,000₮</span>
+              <button class="add-btn">Сагсанд хийх</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="card">
+          <div class="card-art">
+            <span class="code">FW-052</span>
+            <!-- <svg viewBox="0 0 120 120"><path d="M40 18 L18 28 L26 42 L40 34 L40 102 L80 102 L80 34 L94 42 L102 28 L80 18 L66 26 L54 26 Z"/><path d="M40 34 L40 55 L80 55 L80 34"/></svg> -->
+             <img src="images/sw6.png" alt="hoodie6">
+          </div>
+          <div class="card-body">
+            <h3>Hoodie #6</h3>
+            <div class="card-meta"><span>Unisex</span></div>
+            <p>Зөөлөн хөвөн даавуун материалтай, дулаан хадгалах чадвартай худи. 
+              Энгийн бөгөөд цэвэрхэн загвар нь өдөр тутмын хэрэглээ болон хөнгөн спортын хувцаслалтад тохиромжтой.</p>
+            <div class="sizes">
+              <span class="size">S</span>
+              <span class="size">M</span>
+              <span class="size">L</span>
+              <span class="size">XL</span>
+            </div>
+            <div class="card-foot">
+              <span class="price">$158</span>
+              <button class="add-btn">Сагсанд хийх</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="scroll-btn right" id="rightBtn">❯</button>
+    </div>
+    
+
+  </div>
+
+  </section>
+
+  <!-- CRAFT / MATERIALS -->
+  <section class="craft" id="craft">
+    <div class="wrap craft-grid">
+      <div>
+        <h2>Demo Demo Demo Demo Demo Demo Demo</h2>
+        <p>DemoDemoDemoDemo</p>
+        <p>DemoDemo</p>
+      </div>
+      <table class="spec-table">
+        <tr><td>Canvas</td><td>12oz cotton duck, garment-dyed in small batches at Ridgeline Mill, sanforized to resist shrinkage.</td></tr>
+        <tr><td>Denim</td><td>14oz raw selvedge, shuttle-loomed, chain-stitched hems that fade into a visible loop over time.</td></tr>
+        <tr><td>Hardware</td><td>Solid brass and copper rivets from Anchor Hardware Co., corozo nut buttons in place of plastic.</td></tr>
+        <tr><td>Stitching</td><td>Bar-tacked at every stress point, 1/2" seam allowance left in every garment for future let-out.</td></tr>
+        <tr><td>Care</td><td>Cold wash, hang dry. Every garment ships with a repair card and a spare button sewn into the hem.</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- PRESS -->
+  <section class="press" id="press">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Field notes</h2>
+        <p>What people who actually wear their gear to work have said after a season outdoors.</p>
+      </div>
+      <div class="press-row">
+        <div class="press-item">
+          <span class="stamp">DENIM QUARTERLY</span>
+          <p>The Chore Coat is the rare workwear reissue that still fits like it's meant to be worked in, not photographed.</p>
+          <div class="who">— Seasonal gear roundup, Issue 41</div>
+        </div>
+        <div class="press-item">
+          <span class="stamp">TRADE &amp; TOOL</span>
+          <p>Fieldwork's seam allowances are a small detail that tells you this brand expects you to keep the garment for years.</p>
+          <div class="who">— Workwear durability review</div>
+        </div>
+        <div class="press-item">
+          <span class="stamp">OUTPOST JOURNAL</span>
+          <p>A rare catalog where the fabric specs actually tell you something useful before you buy.</p>
+          <div class="who">— Reader mailbag feature</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="wrap nl-grid">
+      <div>
+        <h2>Get restock notices, not sales emails.</h2>
+        <p>We write once or twice a month, only when a run of fabric is limited or a mill has news. No daily discounts.</p>
+      </div>
+      <div>
+        <form class="nl-form" id="nlForm">
+          <input type="email" placeholder="you@email.com" required aria-label="Email address">
+          <button type="submit">Sign up</button>
+        </form>
+        <div class="nl-note" id="nlNote">No spam. Unsubscribe anytime.</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="#top" class="logo"><span class="mark">▲</span> FIELDWORK</a>
+        <p>Small-batch canvas and denim workwear, cut in limited runs and built to be repaired rather than replaced.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#collection">Outerwear</a></li>
+          <li><a href="#collection">Pants</a></li>
+          <li><a href="#collection">Shirting</a></li>
+          <li><a href="#collection">Gift cards</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#craft">Materials</a></li>
+          <li><a href="#press">Field notes</a></li>
+          <li><a href="#">Repair program</a></li>
+          <li><a href="#">Wholesale</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Visit &amp; help</h4>
+        <ul>
+          <li><a href="#">Sizing guide</a></li>
+          <li><a href="#">Shipping &amp; returns</a></li>
+          <li><a href="mailto:hello@fieldwork-example.com">hello@fieldwork-example.com</a></li>
+          <li><a href="#">Portland workshop &amp; store</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Fieldwork Mfg. Co. — a fictional brand created for demonstration.</span>
+      <span>Portland, OR</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

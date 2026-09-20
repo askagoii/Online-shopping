@@ -1,0 +1,3 @@
+<dev> container 
+<a> anchor 
+SVG = Scalable Vector Graphics (instead of pixels, it draws shapes using coordinates.)
