@@ -1,0 +1,4 @@
+gh auth status (for checking the status of which acc i logged in currently.)
+gh auth logout / gh auth login 
+
+git remote -v (which repo i am using.)
